@@ -21,13 +21,16 @@ client.on('message', message => {
     if (message.content==="Satania-sama, how are you?"&&cs===1){
         sp=getRandomInt(2);
         if (sp===0){
-            message.reply("I'm fine...");
+            message.channel.send("I'm fine...");
+            message.channel.send("ughh");
         }
         if (sp===1){
-            message.reply("you lowlife dare ask about the superior archdemon?");
+            message.channel.send("you lowlife dare ask about the superior archdemon?");
+          message.channel.send("ughh");
         }
         if (sp===3){
-            message.reply("I've seen better days...");
+            message.channel.send("I've seen better days...");
+          message.channel.send("ughh");
         }
     }
 });
