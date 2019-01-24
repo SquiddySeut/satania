@@ -28,7 +28,7 @@ client.on('message', message => {
             message.channel.send("you lowlife dare ask about the superior archdemon?");
           message.channel.send("ughh");
         }
-        if (sp===3){
+        if (sp===2){
             message.channel.send("I've seen better days...");
           message.channel.send("ughh");
         }
