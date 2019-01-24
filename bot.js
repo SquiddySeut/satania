@@ -32,6 +32,9 @@ client.on('message', message => {
             message.channel.send("I've seen better days...");
           message.channel.send("ughh");
         }
+        if (message.content==="Anyone have foood?"){
+          message.channel.send("Gabriel, you want this メロンパン™?");
+        }
     }
 });
 
